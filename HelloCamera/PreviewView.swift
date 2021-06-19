@@ -13,7 +13,7 @@ class PreviewView: UIView {
     override class var layerClass: AnyClass {
         return AVCaptureVideoPreviewLayer.self
     }
-    
+
     var session: AVCaptureSession? {
         get {
             return videoPreviewLayer.session
@@ -22,7 +22,7 @@ class PreviewView: UIView {
             videoPreviewLayer.session = newValue
         }
     }
-    
+
     /// Convenience wrapper to get layer as its statically known type.
     var videoPreviewLayer: AVCaptureVideoPreviewLayer {
         return layer as! AVCaptureVideoPreviewLayer
