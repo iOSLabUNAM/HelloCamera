@@ -14,6 +14,7 @@
 		E0C185A7237F666900AD9983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C185A6237F666900AD9983 /* Assets.xcassets */; };
 		E0C185AA237F666900AD9983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C185A8237F666900AD9983 /* LaunchScreen.storyboard */; };
 		E0C185B5237F666900AD9983 /* HelloCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C185B4237F666900AD9983 /* HelloCameraTests.swift */; };
+		E0C185C0237F6C2C00AD9983 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C185BF237F6C2C00AD9983 /* PreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		E0C185B0237F666900AD9983 /* HelloCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C185B4237F666900AD9983 /* HelloCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCameraTests.swift; sourceTree = "<group>"; };
 		E0C185B6237F666900AD9983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C185BF237F6C2C00AD9983 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				E0C1859D237F666800AD9983 /* AppDelegate.swift */,
 				E0C1859F237F666800AD9983 /* SceneDelegate.swift */,
 				E0C185A1237F666800AD9983 /* ViewController.swift */,
+				E0C185BF237F6C2C00AD9983 /* PreviewView.swift */,
 				E0C185A3237F666800AD9983 /* Main.storyboard */,
 				E0C185A6237F666900AD9983 /* Assets.xcassets */,
 				E0C185A8237F666900AD9983 /* LaunchScreen.storyboard */,
@@ -144,7 +147,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = 3zcurdia;
 				TargetAttributes = {
 					E0C18599237F666800AD9983 = {
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C185A2237F666800AD9983 /* ViewController.swift in Sources */,
+				E0C185C0237F6C2C00AD9983 /* PreviewView.swift in Sources */,
 				E0C1859E237F666800AD9983 /* AppDelegate.swift in Sources */,
 				E0C185A0237F666800AD9983 /* SceneDelegate.swift in Sources */,
 			);
@@ -270,6 +274,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -330,6 +335,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
